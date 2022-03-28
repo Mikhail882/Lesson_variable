@@ -6,6 +6,7 @@ public class Main {
 	// write your code here
         System.out.println("Домашнее задание");
         System.out.println("Делаем коммит и пуш");
-        System.out.println("Переходим в гитхаб");}
+        System.out.println("Переходим в гитхаб");
+    }
 
 }
