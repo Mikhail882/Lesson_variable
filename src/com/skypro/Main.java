@@ -51,9 +51,11 @@ public class Main {
         short weightLessGramms = (short) (weightLessKg * 1000);
         short dayMin = (short) (weightLessGramms / weightLessMin);
         short dayMax = (short) (weightLessGramms / weightLessMax);
+        short dayMiddle = (short) ((dayMax+dayMin) / 2);
         System.out.println("Задача 4");
         System.out.println("Дней необходимо на потерю по 250 грамм в день = " + dayMin);
         System.out.println("Дней необходимо на потерю по 500 грамм в день = " + dayMax);
+        System.out.println("Дней необходимо на потерю веса в среднем = " + dayMiddle);
 
         //Задача 5
         int mashaMonth = 67760;
